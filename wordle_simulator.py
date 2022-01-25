@@ -155,8 +155,8 @@ with open('fivewords.txt') as f:
 
 number_of_tries = []
 listoflength = []
-goal_word = 'point'
-guess_word = 'proxy'
+goal_word = ''
+guess_word = ''
 number_of_tries.append(simulate(guess_word, goal_word, possible_words))
 print(f'Congratulations you got it in {str(len(number_of_tries[0]))} tries!')
 print(number_of_tries)
